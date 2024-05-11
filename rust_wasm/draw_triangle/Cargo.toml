@@ -17,5 +17,9 @@ version = "0.3"
 features = [
   'Document', 
   'Window', 
-  'HtmlCanvasElement'
+  'HtmlCanvasElement',
+  'WebGlRenderingContext',
+  'WebGlBuffer',
+  'WebGlShader',
+  'WebGlProgram'
 ]

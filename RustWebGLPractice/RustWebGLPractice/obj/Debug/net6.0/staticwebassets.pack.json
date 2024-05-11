@@ -261,6 +261,22 @@
       "PackagePath": "staticwebassets\\wasm\\canvas_create\\canvas_create_bg.wasm.d.ts"
     },
     {
+      "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\draw_triangle\\draw_triangle.d.ts",
+      "PackagePath": "staticwebassets\\wasm\\draw_triangle\\draw_triangle.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\draw_triangle\\draw_triangle.js",
+      "PackagePath": "staticwebassets\\wasm\\draw_triangle\\draw_triangle.js"
+    },
+    {
+      "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\draw_triangle\\draw_triangle_bg.wasm",
+      "PackagePath": "staticwebassets\\wasm\\draw_triangle\\draw_triangle_bg.wasm"
+    },
+    {
+      "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\draw_triangle\\draw_triangle_bg.wasm.d.ts",
+      "PackagePath": "staticwebassets\\wasm\\draw_triangle\\draw_triangle_bg.wasm.d.ts"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.RustWebGLPractice.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
