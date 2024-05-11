@@ -10,5 +10,10 @@ namespace RustWebGLPractice.Controllers
         {
             return View();
         }
+
+        public IActionResult DrawTriangle()
+        {
+            return View();
+        }
     }
 }
