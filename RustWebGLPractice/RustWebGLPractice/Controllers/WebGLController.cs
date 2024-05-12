@@ -25,5 +25,10 @@ namespace RustWebGLPractice.Controllers
         {
             return View();
         }
+
+        public IActionResult DrawSquare()
+        {
+            return View();
+        }
     }
 }
