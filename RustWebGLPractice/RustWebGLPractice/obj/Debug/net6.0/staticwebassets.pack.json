@@ -261,6 +261,22 @@
       "PackagePath": "staticwebassets\\wasm\\canvas_create\\canvas_create_bg.wasm.d.ts"
     },
     {
+      "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\draw_point\\draw_point.d.ts",
+      "PackagePath": "staticwebassets\\wasm\\draw_point\\draw_point.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\draw_point\\draw_point.js",
+      "PackagePath": "staticwebassets\\wasm\\draw_point\\draw_point.js"
+    },
+    {
+      "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\draw_point\\draw_point_bg.wasm",
+      "PackagePath": "staticwebassets\\wasm\\draw_point\\draw_point_bg.wasm"
+    },
+    {
+      "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\draw_point\\draw_point_bg.wasm.d.ts",
+      "PackagePath": "staticwebassets\\wasm\\draw_point\\draw_point_bg.wasm.d.ts"
+    },
+    {
       "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\draw_triangle\\draw_triangle.d.ts",
       "PackagePath": "staticwebassets\\wasm\\draw_triangle\\draw_triangle.d.ts"
     },

@@ -15,5 +15,10 @@ namespace RustWebGLPractice.Controllers
         {
             return View();
         }
+
+        public IActionResult DrawPoint()
+        {
+            return View();
+        }
     }
 }
