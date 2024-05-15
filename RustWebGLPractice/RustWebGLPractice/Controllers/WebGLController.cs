@@ -30,5 +30,10 @@ namespace RustWebGLPractice.Controllers
         {
             return View();
         }
+
+        public IActionResult DrawColor()
+        {
+            return View();
+        }
     }
 }
