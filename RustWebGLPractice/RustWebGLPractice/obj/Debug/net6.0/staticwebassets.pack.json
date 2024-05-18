@@ -341,6 +341,22 @@
       "PackagePath": "staticwebassets\\wasm\\draw_triangle\\draw_triangle_bg.wasm.d.ts"
     },
     {
+      "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\draw_triangle_scale\\draw_triangle_scale.d.ts",
+      "PackagePath": "staticwebassets\\wasm\\draw_triangle_scale\\draw_triangle_scale.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\draw_triangle_scale\\draw_triangle_scale.js",
+      "PackagePath": "staticwebassets\\wasm\\draw_triangle_scale\\draw_triangle_scale.js"
+    },
+    {
+      "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\draw_triangle_scale\\draw_triangle_scale_bg.wasm",
+      "PackagePath": "staticwebassets\\wasm\\draw_triangle_scale\\draw_triangle_scale_bg.wasm"
+    },
+    {
+      "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\draw_triangle_scale\\draw_triangle_scale_bg.wasm.d.ts",
+      "PackagePath": "staticwebassets\\wasm\\draw_triangle_scale\\draw_triangle_scale_bg.wasm.d.ts"
+    },
+    {
       "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\draw_triangle_trans\\draw_triangle_trans.d.ts",
       "PackagePath": "staticwebassets\\wasm\\draw_triangle_trans\\draw_triangle_trans.d.ts"
     },
