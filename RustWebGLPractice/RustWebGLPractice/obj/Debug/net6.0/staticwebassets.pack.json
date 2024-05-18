@@ -373,6 +373,22 @@
       "PackagePath": "staticwebassets\\wasm\\draw_triangle_trans\\draw_triangle_trans_bg.wasm.d.ts"
     },
     {
+      "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\triangle_rotate\\triangle_rotate.d.ts",
+      "PackagePath": "staticwebassets\\wasm\\triangle_rotate\\triangle_rotate.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\triangle_rotate\\triangle_rotate.js",
+      "PackagePath": "staticwebassets\\wasm\\triangle_rotate\\triangle_rotate.js"
+    },
+    {
+      "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\triangle_rotate\\triangle_rotate_bg.wasm",
+      "PackagePath": "staticwebassets\\wasm\\triangle_rotate\\triangle_rotate_bg.wasm"
+    },
+    {
+      "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\triangle_rotate\\triangle_rotate_bg.wasm.d.ts",
+      "PackagePath": "staticwebassets\\wasm\\triangle_rotate\\triangle_rotate_bg.wasm.d.ts"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.RustWebGLPractice.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

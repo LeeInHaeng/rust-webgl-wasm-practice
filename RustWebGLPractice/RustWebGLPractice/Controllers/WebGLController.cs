@@ -45,5 +45,10 @@ namespace RustWebGLPractice.Controllers
         {
             return View();
         }
+
+        public IActionResult TriangleRotate()
+        {
+            return View();
+        }
     }
 }
