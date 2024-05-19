@@ -50,5 +50,10 @@ namespace RustWebGLPractice.Controllers
         {
             return View();
         }
+
+        public IActionResult WasmWebglStress()
+        {
+            return View();
+        }
     }
 }

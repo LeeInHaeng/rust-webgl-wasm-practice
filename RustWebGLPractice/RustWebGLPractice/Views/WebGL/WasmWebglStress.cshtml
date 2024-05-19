@@ -1,0 +1,112 @@
+﻿<!doctype html>
+<html>
+<body>
+    <canvas width="1400" height="800" id="my_Canvas"></canvas>
+    <!--
+    <script>
+        // https://toyou101.tistory.com/15 reference
+        var canvas = document.getElementById('my_Canvas');
+        var ctx = canvas.getContext('2d');
+
+        // 공 정의
+        class Ball {
+            constructor(x, y, xSpeed, ySpeed) {
+                this.x = x; //공의 x좌표
+                this.y = y //공의 y좌표
+                this.xSpeed = xSpeed + 2; //공의 x좌표 속도
+                this.ySpeed = ySpeed + 2; //공의 y좌표 속도
+            }
+        }
+        // 공 그리기
+        function drawBall(ball) {
+            ctx.beginPath();  // 도형 시작
+            ctx.arc(ball.x, ball.y, 20, 0, Math.PI * 2); // x좌표, y좌표, 반지름(크기),각도 0도 ~ 각도 360도 (원 모양)
+            ctx.fillStyle = 'green';  // 채우기 스타일 설정
+            ctx.fill();  // 도형 채우기
+        }
+        //공의 위치 x,y좌표만 넣고 실행
+        let x = canvas.width / 2;  //현재 화면의 x축 중앙
+        let y = canvas.height / 2; //현재 화면의 y축 중앙
+        ball = new Ball(x, y);  //공을 생성
+        drawBall(ball); //화면에 공을 그린다
+
+        const balls = []; // 공 배열 생성
+        let ballCount = 0; //공의 숫자
+        let lastFrameTime = performance.now(); //현재 시간을 밀리초 반환
+        let frameRate = 0; //프레임 값
+ 
+        //움직이는 공을 추가하는 함수
+        function addBall() {
+            const x = Math.random() * (canvas.width - 40) + 20;  //공의 X좌표 랜덤
+            const y = Math.random() * (canvas.height - 40) + 300; //공의 y좌표 랜덤
+            const xSpeed = Math.random() * 4; //공의 X좌표 속도 랜덤
+            const ySpeed = Math.random() * 4; //공의 y좌표 속도 랜덤
+            const newBall = new Ball(x, y, xSpeed, ySpeed); //공 생성 
+            balls.push(newBall); //공 배열에 넣어준다 
+            ballCount++; //공의 개수
+        }
+
+        // 공 개수 표시
+        function drawBallCount(count, frameRate) {
+            ctx.font = '24px Arial'; //폰트 지정
+            ctx.fillStyle = 'green'; //글자 색상
+            ctx.fillText(`공 개수: ${count}`, 10, 30); // 문자열을 (10, 30) 좌표에 위치
+            ctx.fillText(`Frame rate: ${frameRate.toFixed(2)} FPS`, 10, 60); // 문자열을 (10,60)좌표에 위치 
+        }
+
+        var intervalID;
+        //animate 호출시 currentFrameTime값 추가
+        function animate(currentFrameTime) {
+            ctx.clearRect(0, 0, canvas.width, canvas.height); // 공을 지워준다
+
+            // 프레임 레이트 계산 추가
+            const deltaTime = currentFrameTime - lastFrameTime;
+            frameRate = 1000 / deltaTime;
+            lastFrameTime = currentFrameTime;
+
+            // 모든 공들에 대해서 좌표를 업데이트하고 경계를 넘어갔다면 반대방향으로 이동
+            for (const ball of balls) {
+                ball.x += ball.xSpeed;
+                ball.y += ball.ySpeed;
+                if (ball.x + 20 > canvas.width || ball.x - 20 < 0) {
+                    ball.xSpeed = -ball.xSpeed;
+                }
+                if (ball.y + 20 > canvas.height || ball.y - 20 < 250) {
+                    ball.ySpeed = -ball.ySpeed;
+                }
+                drawBall(ball); // 계산된 좌표로 공을 다시 그린다
+            }
+            drawBallCount(ballCount, frameRate); // 공의 개수와 프레임값을 갱신
+            if (5000 < ballCount) {
+                clearInterval(intervalID);
+            }
+            requestAnimationFrame(animate); // 다음 프레임을 실행
+        }
+        // 브라우저 창 크기 변경 시 Canvas 크기 조정
+        window.onresize = function() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+
+        intervalID = setInterval(addBall, 1);
+
+        addBall(); //움직이는 공 추가
+        animate(); // 애니메이션 시작
+    </script>
+    -->
+
+        <!-- wasm canvas -->
+        <script type="module">
+        import wasm_init, { wasm_canvas_stress } from '/wasm/wasm_canvas_stress/wasm_canvas_stress.js';
+        async function wasm_canvas_stress_init() {
+            await wasm_init();
+            wasm_canvas_stress();
+        }
+        wasm_canvas_stress_init();
+        </script>
+
+        <!-- TODO : canvas convert to webgl -->
+
+        <!-- TODO : webgl convert to webgpu -->
+</body>
+</html>

@@ -1,0 +1,28 @@
+[package]
+name = "wasm_canvas_stress"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.86"
+js-sys = "0.3"
+rand="0.8.5"
+getrandom = { version = "0.2", features = ["js"] }
+
+[dependencies.web-sys]
+version = "0.3"
+features = [
+  'Document', 
+  'Window', 
+  'HtmlCanvasElement',
+  'CanvasRenderingContext2d',
+  'WebGlBuffer',
+  'WebGlShader',
+  'WebGlProgram',
+  'WebGlUniformLocation'
+]
