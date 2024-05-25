@@ -261,6 +261,22 @@
       "PackagePath": "staticwebassets\\wasm\\canvas_create\\canvas_create_bg.wasm.d.ts"
     },
     {
+      "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\cube_rotate\\cube_rotate.d.ts",
+      "PackagePath": "staticwebassets\\wasm\\cube_rotate\\cube_rotate.d.ts"
+    },
+    {
+      "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\cube_rotate\\cube_rotate.js",
+      "PackagePath": "staticwebassets\\wasm\\cube_rotate\\cube_rotate.js"
+    },
+    {
+      "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\cube_rotate\\cube_rotate_bg.wasm",
+      "PackagePath": "staticwebassets\\wasm\\cube_rotate\\cube_rotate_bg.wasm"
+    },
+    {
+      "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\cube_rotate\\cube_rotate_bg.wasm.d.ts",
+      "PackagePath": "staticwebassets\\wasm\\cube_rotate\\cube_rotate_bg.wasm.d.ts"
+    },
+    {
       "Id": "C:\\Users\\82106\\OneDrive\\바탕 화면\\개발\\rust-webgl-wasm-practice\\RustWebGLPractice\\RustWebGLPractice\\wwwroot\\wasm\\draw_color\\draw_color.d.ts",
       "PackagePath": "staticwebassets\\wasm\\draw_color\\draw_color.d.ts"
     },
